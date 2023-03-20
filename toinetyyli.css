@@ -1,0 +1,185 @@
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: xx-large;
+  position: relative;
+  color: rgba(128, 35, 12, 0.521);
+}
+
+header {
+  min-height: 300px;
+  min-width: 420px;
+
+
+}
+
+@media (max-width: 40em) {
+  body {
+    text-align: center;
+  }
+
+  #navBar,
+  .casketMain,
+  .boxTop,
+  .boxMid,
+  .boxMidLeft,
+  .boxMidRight,
+  .boxFooter {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}
+
+body {
+  background-image: url("Taauusta.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+#navBar {
+  margin-top: 30px;
+  width: 150%;
+  height: 50px;
+  text-align: center;
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: large;
+  text-align: center;
+
+}
+
+.navLinks {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+
+}
+
+.casketMain {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border: 1px solid greenyellow;
+}
+
+
+.boxTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  font-size: large;
+
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  text-align: center;
+  box-sizing: border-box;
+
+}
+
+.boxTop img {
+  width: 150%;
+  height: 150%;
+  max-width: 888;
+  background-size: cover;
+  display: flex;
+  box-sizing: border-box;
+
+}
+
+.boxMid {
+
+  width: 100%;
+
+  border: 1px solid greenyellow;
+  background-image: url(revontuletTaustalle.png);
+  background-size: cover;
+  background-position: 70% 60%;
+  background-repeat: no-repeat;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: auto;
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+
+}
+
+.boxMidLeft {
+
+  background-image: url(Pilvet.jpg);
+  background-size: 250%;
+  background-repeat: no-repeat;
+  background-position: 40%;
+  margin-top: 2em;
+  width: 100%;
+  height: 400px;
+  border: 1px solid rgb(166, 255, 0);
+  text-align: center;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  padding: 5px;
+  box-sizing: border-box;
+
+}
+
+.boxMidRight {
+
+  width: 100%;
+  height: 780px;
+
+  box-sizing: border-box;
+
+
+}
+
+img {
+  max-width: 100%;
+}
+
+video {
+  display: block;
+  max-width: 100%;
+}
+
+.boxFooter {
+  background-image: url(Minne\ Vaan\ T\ 1.5\ R.png);
+  margin-bottom: 2em;
+  margin-top: 2em;
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  height: 965px;
+
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: xx-large;
+  box-sizing: border-box;
+
+}
+
+button {
+  background-color: #28501e44;
+  color: white;
+  border: none;
+  padding: 17px 18px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #64fa0c;
+}
+
+@media only screen and (max-width: 425px) {
+  button {
+    font-size: 14px;
+    padding: 17px 18px;
+  }
+}
